@@ -1,0 +1,96 @@
+body {
+	background-color:white;
+	text-align: center;
+	padding: 40px;
+}
+
+h1 {
+	float: left;
+	padding:10px;
+	clear: both;
+	font-size: 24px;
+	font-family: 'Indie Flower', cursive;
+	font-style: bold;
+	color: lightslategrey;
+}
+
+nav li{ 
+	float: right;
+	font-family: 'Indie Flower', cursive;
+	display: inline-block;
+	list-style: none;
+	margin: 10px;
+	padding: 10px 0px;
+	font-size: 24px;
+	color: darkslategrey;
+	border-bottom: solid black 2px;
+}
+
+#auto_radius {
+	clear: both;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	padding: 30px;
+	color: black;
+	background-size: cover;
+	font-style: italic;
+
+}
+
+#description h4 {
+	clear: both;
+	font-family: 'Indie Flower', cursive;
+	font-size: 36px;
+	padding: 5px;
+}
+
+#dep {
+	border-bottom: : 2px solid black;
+	font-family: 'Indie Flower', cursive;
+}
+
+img {
+	clear: both;
+	margin: 40px;
+	max-width: 800px;
+	text-align: center;
+	border: 5px solid black;
+
+}
+.illness {
+	text-align: center;
+}
+.bpd {
+	font-size: 18px;
+	font-family: 'Lora', serif;
+}
+
+.depression_time {
+	font-size: 18px;
+	font-family: 'Lora', serif;
+}
+
+.anxiety {
+	font-size: 18px;
+	font-family: 'Lora', serif;
+}
+
+blockquote {
+	font-family: 'Indie Flower', cursive;
+	font-size: 24px;
+	text-align: center;
+	font-style: bold;
+}
+audio {
+	border: 2px dashed black;
+	padding: 10px;
+}
+
+footer {
+	clear: both;
+	background-color: black;
+	background-size: cover;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	padding: 30px;
+}
