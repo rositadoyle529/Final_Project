@@ -26,14 +26,21 @@ nav li{
 	border-bottom: solid black 2px;
 }
 
-#auto_radius {
+.basics {
 	clear: both;
 	font-family: 'Indie Flower', cursive;
 	font-size: 20px;
-	padding: 30px;
+	padding: 95px;
 	color: black;
 	background-size: cover;
 	font-style: italic;
+
+
+}
+
+a {
+	text-decoration:none;
+	color: black;
 
 }
 
