@@ -7,13 +7,23 @@
 		<link rel="stylesheet" href="WIFL.css">
 	<head>
 	<body>
+	<div id="container">
 		<header>
 			<h1> What It Feels Like </h1>
+			
+			<button type="button" class="menu-button">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+
+			<div class="dropdown-menu">
 				<nav>
-				<li><a href="#bpd">Bipolar Disorder</a></li>
-				<li><a href="#dep">Depression</a></li>
-				<li><a href="#anx">Anxiety and Panic Attacks</a></li>
-			</nav>
+					<li><a href="#anx">Anxiety and Panic Attacks</a></li>
+					<li><a href="#dep">Depression</a></li>
+					<li><a href="#bpd">Bipolar Disorder</a></li>
+				</nav>
+			</div>
 		</header>
 			<section class = "basics">
 			<p> Mental illnesses aren't as easily spotted as physical, due to people often hiding their ilness due to the social stigma and the fear that they will be shunned. If someone begins isolating themselves, sems less or unrealistically energetic, or has a family history of mental illness, it's important to know what it feels like to have one, as well as spot them in others - or yourself.
@@ -27,82 +37,75 @@
 			
 			<main id="description">
 <!-- This is about bipolar disorder. -->
-				<section class="illness">
+			<h4><a name="bpd">Bipolar Disorder</a></h4>
+			<div class="card" id="bitime">
 
-					<section class="bpd">
-
-						<h4><a name="bpd">Bipolar Disorder</a></h4>
-							<section class="bi_image">
+							<div class="front">
 								<img src="images/bipolar.jpeg">
-							</section>
+							</div>
 
+							<div class="back">
 							<blockquote>
 								"During mania, I've got more energy than I know what to do with, and it usually ends with me taking it out sexually. I'll wake up in the morning, in someone else's bed, and I've got this sick feeling in my stomach." - Sarah, age 34
-							</blockquote>
-							<blockquote>
+							<p>
 								"Sometimes, when I'm in the dark place that a low stage gives me, I can't move. I feel sick all the time, and my appetite is completely gone. " - Jake, age 27
+							</p>
 							</blockquote>
-							<p class="bpd">
+						
+							<p class="info">
 								Bipolar Disorder can be tricky to diagnose or even consider, as up and down stages are part of life, and social stigma tells us bipolar disorder means a life of servitude to the illness. Charcterized by periods of high energy and productivity contrasted by low motivation and lethargic periods, dealing with the mental illness is difficult at best.
 							</p>
-									
-					</section>
+							</div>
 
-				</section>
+			</div>
 <!-- This is abotu depresssion. -->
-				<section class="illness">
+			<h4><a name="dep">Depression</a></h4>
 
-					<section class="dep">
+			<div class="card" id="lastditch">
 
-						<h4><a name="dep">Depression</a></h4>
-						<section class="depimage">
+						<div class="front">
 							<img src="images/Depression.jpeg">
-						</section>
+						</div>
 
-							
-							<blockquote>
+						<div class="back">
+							<p>
 								"Everyday is a roll of the dice - I might have to convince myself I deserve to exist or  I might not." - Raye, age 19
-							</blockquote>
-							<blockquote>
-								"People keep telling me it's just a phase, that you get over sadness, but I've been like this for three years. It's not going away, and I wish it would stop. I wish <strong>everything</strong> would stop." - Thomas, age 25
-							</blockquote>
-							<p class="depression_time">
-								Depression is often hard to spot, as many people who have it act cheerful and happy around others to mask it. Sometime, it's easier to pretend it doesn't exsist rather than face the full brunt of depression. 
-							<p class="depression_time">
+							</p>							
+							<p>	"People keep telling me it's just a phase, that you get over sadness, but I've been like this for three years. It's not going away, and I wish it would stop. I wish <strong>everything</strong> would stop." - Thomas, age 25
+							</p>
+							<p>
+								Depression is often hard to spot, as many people who have it act cheerful and happy around others to mask it. Sometime, it's easier to pretend it doesn't exsist rather than face the full brunt of depression.
+							</p>
+							<p>
 							More often, depression is in stages. Some people may be sad, and others will be so depressed that getting anything done is impossible.
 							</p>
-
-
-
-							</p>	
-
-					</section>
-
-				</section>
+						</div>
+			</div>
 <!-- This is about anxiety. -->
-				<section class="illness">
-					<section class="anx">
+				<h4><a name="anx">Anxiety and Panic Attacks</a></h4>
 
-						<h4><a name="anx">Anxiety and Panic Attacks</a></h4>
-							<section class="anx">
+				<div class="card" id="tryagain">
+							<div class="front">
 								<img src="images/anxiety.jpeg">
-							</section>
+							</div>
 							
+							<div class="back">
 							<blockquote>
 								"The world feels like it's falling apart, at the slightest change. I keep thinking of all the things that could or will happen and I'm paralyzed." - D'angelo, age 28
-							</blockquote>
-							<blockquote>
-								"I've passed out from hyperventaliating too much. Just breathing normally is a struggle, because my urge to hyperventalate comes on so strong during the middle of a panic attack, I feel like I'm dying." - Rachel, age 22
-							</blockquote>
-							<p class="anxiety">
-								Anxiety is very common: many people live with a low form of anxiety all the time. In the past, we used it to be alert to predators. But now in modern times, it can create a low level uneasiness all the time. Panic attacks can result, which make certain places or topics off limits to people, due to the reaction it gives them.
-
-
-
+								
+							<p>"I've passed out from hyperventilating too much. Just breathing normally is a struggle, because my urge to hyperventilate comes on so strong during the middle of a panic attack, I feel like I'm dying." - Rachel, age 22
 							</p>
+							</blockquote>
+							
 
-					</section>
-				</section>
+							<p class="info">
+								Anxiety is very common: many people live with a low form of anxiety all the time. In the past, we used it to be alert to predators. But now in modern times, it can create a low level uneasiness all the time. Panic attacks can result, which make certain places or topics off limits to people, due to the reaction it gives them.
+							</p>
+							</div>
+
+				</div>
+		</main>
+	
 	<!-- This is the footer. -->
 	<footer>
 		<p class="help"><h6>
@@ -111,10 +114,11 @@
 		<a href="#"> Contact the Creator </a>
 		</p></h6>
 	</footer>
+	</div>
 				
-			<main>
-		<main>	
 		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 		<script src="js/WIFL.js"></script>
+	
 	</body>
 </html>

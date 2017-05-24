@@ -1,5 +1,9 @@
+#container {
+width: 100%;
+height: 100%;
+
+}
 body {
-	background-color:white;
 	text-align: center;
 	padding: 40px;
 }
@@ -11,7 +15,7 @@ h1 {
 	font-size: 24px;
 	font-family: 'Indie Flower', cursive;
 	font-style: bold;
-	color: lightslategrey;
+	color: black;
 }
 
 nav li{ 
@@ -22,8 +26,8 @@ nav li{
 	margin: 10px;
 	padding: 10px 0px;
 	font-size: 24px;
-	color: darkslategrey;
-	border-bottom: solid black 2px;
+	color: black;
+	border-bottom: solid white 2px;
 }
 
 .basics {
@@ -38,10 +42,18 @@ nav li{
 
 }
 
+.card {
+	padding:20px;
+}
+
 a {
 	text-decoration:none;
 	color: black;
 
+}
+
+bpd {
+	color: white;
 }
 
 #description h4 {
@@ -58,40 +70,20 @@ a {
 
 img {
 	clear: both;
-	margin: 40px;
-	max-width: 800px;
 	text-align: center;
 	border: 5px solid black;
+	width:100%;
 
 }
-.illness {
+
+.info {
 	text-align: center;
-}
-.bpd {
 	font-size: 18px;
 	font-family: 'Lora', serif;
+
 }
 
-.depression_time {
-	font-size: 18px;
-	font-family: 'Lora', serif;
-}
 
-.anxiety {
-	font-size: 18px;
-	font-family: 'Lora', serif;
-}
-
-blockquote {
-	font-family: 'Indie Flower', cursive;
-	font-size: 24px;
-	text-align: center;
-	font-style: bold;
-}
-audio {
-	border: 2px dashed black;
-	padding: 10px;
-}
 
 footer {
 	clear: both;
@@ -100,4 +92,15 @@ footer {
 	color: white;
 	font-family: 'Indie Flower', cursive;
 	padding: 30px;
+}
+
+.help {
+	clear:both;
+}
+
+
+
+.front, .back {
+	width: 80%;
+	margin: 0 auto;
 }

@@ -1,5 +1,13 @@
-// when an image is clicked the information about that illness appears
+ // JS drop down (hamburger) menu to get to different sections of the website
+$(document).ready(function() {
+    $(this).on('click', '#menu-button', function(event) {
+        event.preventDefault();
+        $(this).toggleClass('visible');
+    })
+});
 
-// page gradually gets lighter (black to grey to white)
+// JS when an image is clicked the information about that illness through flipping appears;
 
-// stars float across the screen? 
+	$("#lastditch").flip();
+	$("#tryagain").flip();
+	$("#bitime").flip();
