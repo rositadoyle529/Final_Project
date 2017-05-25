@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 #container {
 width: 100%;
 height: 100%;
@@ -17,6 +21,85 @@ h1 {
 	font-style: bold;
 	color: black;
 }
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu {
+	 clear: both;
+	 z-index:1000000;
+	 font-weight:bold;
+	 font-size:0.8em;
+	 width:100%; 
+	 background:#f1f1f1;  
+	 position:absolute; 
+	 text-align:center; 
+	 font-size:16px;
+	 font-family: 'Indie Flower', cursive;
+	 float: right;}
+
+.menu ul 
+	{margin:0; 
+	 padding: 0;
+	 list-style-type: none; 
+	 list-style-image: none;
+	}
+
+.menu li 
+	{display: block;
+	 padding: 15px 0 15px 0;
+	 border-bottom: #dddddd 1px solid;
+	}
+
+.menu li:hover
+	{display: block;
+	 background:#ffffff;
+	 padding:15px 0 15px 0;
+	 border-bottom:#dddddd 1px solid;
+	}
+
+.menu ul li a 
+	{text-decoration:none;  
+	 margin: 0px; color:#666;
+	}
+
+.menu ul li a:hover 
+	{color: #666; 
+	 text-decoration:none;}
+
+.menu a { 
+	text-decoration:none; 
+	color:#666;}
+
+.menu a:hover{
+	text-decoration:none; 
+	color:#666;}
 
 nav li{ 
 	float: right;
@@ -43,7 +126,7 @@ nav li{
 }
 
 .card {
-	padding:20px;
+	padding: 0px;
 }
 
 a {
@@ -72,7 +155,7 @@ img {
 	clear: both;
 	text-align: center;
 	border: 5px solid black;
-	width:100%;
+	height: 100%;
 
 }
 
@@ -103,4 +186,53 @@ footer {
 .front, .back {
 	width: 80%;
 	margin: 0 auto;
+	min-height: 500px;
 }
+
+@media (min-width:769px) and (max-width:1200px){
+		.front, .back {
+			min-height: 400px;
+		}
+
+}
+
+@media (min-width: 610px) and (max-width: 768px){
+		.front, .back {
+			min-height: 300px;
+		}
+
+		#lastditch .front,
+		#lastditch .back {
+			min-height: 250px;
+			
+		}
+} 
+
+@media only screen and (max-width: 609px) {
+.front, .back {
+			min-height: auto;
+		}
+
+		#lastditch .front,
+		#lastditch .back {
+			min-height: auto;
+			position: relative;
+			
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 0;
+		}
+
+
+
+}
+
+
+
+
