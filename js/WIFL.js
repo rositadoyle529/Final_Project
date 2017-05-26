@@ -24,3 +24,4 @@ $(".cross").click(function() {
 	$("#lastditch").flip();
 	$("#tryagain").flip();
 	$("#bitime").flip();
+	$("#hope").flip();
